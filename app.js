@@ -25,7 +25,10 @@ const userRouter = require("./routes/user.js");
 
 
 
- const dburl = process.env.ATLASDB_url;
+// const dburl = process.env.ATLASDB_url;
+const dburl = "mongodb://127.0.0.1:27017/piyush";
+
+
 
 
 main()
